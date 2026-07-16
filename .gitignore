@@ -1,0 +1,40 @@
+# ── Credentials & local config ─────────────────────────────────────────────────
+wp-config.php
+wordpress/wp-config-local.php
+wp-content/wp-config-local.php
+**/wp-config-local.php
+
+# ── Node ────────────────────────────────────────────────────────────────────────
+node_modules/
+.pnpm-store/
+
+# ── Build output ────────────────────────────────────────────────────────────────
+dist/
+wordpress/theme/mademo/dist/
+
+# ── WordPress uploads & cache ───────────────────────────────────────────────────
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# ── WordPress debug log ─────────────────────────────────────────────────────────
+*.log
+wp-content/debug.log
+
+# ── OS & editor ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+
+# ── Env files ───────────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Local by Flywheel ───────────────────────────────────────────────────────────
+local-xdebuginfo.php

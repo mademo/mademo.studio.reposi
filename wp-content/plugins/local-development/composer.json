@@ -1,0 +1,56 @@
+{
+    "name": "afragen/local-development",
+    "description": "Places development notice for plugins or themes that are in local development. Prevents updating of selected plugins and themes. Allows for using a local file server.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "wordpress",
+        "local",
+        "development"
+    ],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Andy Fragen",
+            "email": "andy@thefragens.com",
+            "homepage": "https://thefragens.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/afragen/local-development"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/afragen/local-development/issues",
+        "source": "https://github.com/afragen/local-development"
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.6",
+        "afragen/singleton": "dev-master",
+        "wp-cli/wp-config-transformer": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fragen\\Local_Development\\": "src/Local_Development/"
+        }
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "make-pot": [
+            "wp i18n make-pot . languages/local-development.pot"
+        ],
+        "wpcs": [
+            "vendor/bin/phpcbf .; vendor/bin/phpcs ."
+        ]
+    }
+}

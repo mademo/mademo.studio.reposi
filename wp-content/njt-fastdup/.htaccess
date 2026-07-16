@@ -1,0 +1,9 @@
+Options -Indexes
+# Block direct HTTP access to all files
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order Allow,Deny
+    Deny from all
+</IfModule>

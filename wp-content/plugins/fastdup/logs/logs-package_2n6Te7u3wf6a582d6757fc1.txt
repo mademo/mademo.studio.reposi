@@ -1,0 +1,87 @@
+====  SYSTEM STATS  ====
+WordPress Version: 7.0.1
+PHP Version: 8.4.23
+MySQL Version: 11.8.8
+Website Name: mademo studio
+Theme: Mademo Studio
+WordPress URL: https://mademo.studio
+Site URL: https://mademo.studio
+Multisite: no
+PHP Extensions: ["Core","date","libxml","pcre","sqlite3","zlib","calendar","ctype","dom","fileinfo","filter","gmp","hash","iconv","json","pcntl","SPL","session","openssl","posix","random","Reflection","standard","SimpleXML","sockets","sodium","tokenizer","xml","xmlreader","xmlwriter","mysqlnd","cgi-fcgi","apcu","bcmath","curl","elastic_apm","mbstring","gd","gmagick","imap","intl","exif","mcrypt","memcache","igbinary","memcached","mysqli","Phar","PDO","pdo_mysql","pdo_sqlite","pfx","photon-opencv","soap","timezonedb","xsl","zip","Zend OPcache"]
+Server Info: nginx
+WP Memory Limit: 512M
+WP Admin Memory Limit: 512M
+PHP Memory Limit: 512M
+Max Execution Time: 850
+Open BaseDir: 
+WordPress Plugins: {"advanced-custom-fields\/acf.php":{"Name":"Advanced Custom Fields","PluginURI":"https:\/\/www.advancedcustomfields.com","Version":"6.8.6","Description":"Customize WordPress with powerful, professional and intuitive fields.","Author":"WP Engine","AuthorURI":"https:\/\/wpengine.com\/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=plugin_directory&utm_content=advanced_custom_fields","TextDomain":"acf","DomainPath":"\/lang","Network":false,"RequiresWP":"6.2","RequiresPHP":"7.4","UpdateURI":"","RequiresPlugins":"","Title":"Advanced Custom Fields","AuthorName":"WP Engine"},"akismet\/akismet.php":{"Name":"Akismet Anti-spam: Spam Protection","PluginURI":"https:\/\/akismet.com\/","Version":"5.7","Description":"Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.","Author":"Automattic - Anti-spam Team","AuthorURI":"https:\/\/automattic.com\/wordpress-plugins\/","TextDomain":"akismet","DomainPath":"","Network":false,"RequiresWP":"5.8","RequiresPHP":"7.2","UpdateURI":"","RequiresPlugins":"","Title":"Akismet Anti-spam: Spam Protection","AuthorName":"Automattic - Anti-spam Team"},"all-in-one-wp-migration\/all-in-one-wp-migration.php":{"Name":"All-in-One WP Migration and Backup","PluginURI":"https:\/\/servmask.com\/","Version":"7.106","Description":"All-in-One WP Migration makes moving your entire WordPress site simple. Export or import your database, media, plugins, and themes with just a few clicks.","Author":"ServMask","AuthorURI":"https:\/\/servmask.com\/","TextDomain":"all-in-one-wp-migration","DomainPath":"\/languages","Network":true,"RequiresWP":"","RequiresPHP":"","UpdateURI":"","RequiresPlugins":"","Title":"All-in-One WP Migration and Backup","AuthorName":"ServMask"},"classic-editor\/classic-editor.php":{"Name":"Classic Editor","PluginURI":"https:\/\/wordpress.org\/plugins\/classic-editor\/","Version":"1.7.0","Description":"Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.","Author":"WordPress Contributors","AuthorURI":"https:\/\/github.com\/WordPress\/classic-editor\/","TextDomain":"classic-editor","DomainPath":"\/languages","Network":false,"RequiresWP":"4.9","RequiresPHP":"5.2.4","UpdateURI":"","RequiresPlugins":"","Title":"Classic Editor","AuthorName":"WordPress Contributors"},"polldaddy\/polldaddy.php":{"Name":"Crowdsignal Dashboard - Polls, Surveys & more","PluginURI":"https:\/\/wordpress.org\/plugins\/polldaddy\/","Version":"3.1.8","Description":"Create and manage Crowdsignal polls and ratings in WordPress","Author":"Automattic, Inc.","AuthorURI":"","TextDomain":"polldaddy","DomainPath":"\/languages","Network":false,"RequiresWP":"","RequiresPHP":"","UpdateURI":"","RequiresPlugins":"","Title":"Crowdsignal Dashboard - Polls, Surveys & more","AuthorName":"Automattic, Inc."},"crowdsignal-forms\/crowdsignal-forms.php":{"Name":"Crowdsignal Forms","PluginURI":"https:\/\/crowdsignal.com\/crowdsignal-forms\/","Version":"1.8.2","Description":"Crowdsignal Form Blocks","Author":"Automattic","AuthorURI":"https:\/\/automattic.com\/","TextDomain":"crowdsignal-forms","DomainPath":"\/languages","Network":false,"RequiresWP":"","RequiresPHP":"","UpdateURI":"","RequiresPlugins":"","Title":"Crowdsignal Forms","AuthorName":"Automattic"},"easy-local-site\/easy-local-site.php":{"Name":"Easy Local Site","PluginURI":"https:\/\/github.com\/lumpysimon\/wp-easy-local-site","Version":"0.3","Description":"Aid the development process on a local WordPress site by adding some handy reminders and overriding outgoing emails.","Author":"Simon Blackbourn @ Lumpy Lemon","AuthorURI":"https:\/\/twitter.com\/lumpysimon","TextDomain":"easy_local_site","DomainPath":"\/easy-local-languages\/","Network":false,"RequiresWP":"","RequiresPHP":"","UpdateURI":"","RequiresPlugins":"","Title":"Easy Local Site","AuthorName":"Simon Blackbourn @ Lumpy Lemon"},"fastdup\/fastdup.php":{"Name":"FastDup","PluginURI":"https:\/\/ninjateam.gitbook.io\/fastdup\/","Version":"2.7.3","Description":"WordPress Fastest Duplicator and Migration","Author":"Ninja Team","AuthorURI":"https:\/\/ninjateam.org\/","TextDomain":"fastdup","DomainPath":"\/languages","Network":false,"RequiresWP":"","RequiresPHP":"","UpdateURI":"","RequiresPlugins":"","Title":"FastDup","AuthorName":"Ninja Team"},"gravatar-enhanced\/gravatar-enhanced.php":{"Name":"Gravatar Enhanced","PluginURI":"https:\/\/wordpress.org\/extend\/plugins\/gravatar-enhanced\/","Version":"0.13.1","Description":"Enhanced functionality for Gravatar-ifying your WordPress site. Once you've enabled the plugin, go to the \"Avatars\" section on the <a href=\"options-discussion.php\">Discussion Settings page<\/a> to get started.","Author":"Automattic","AuthorURI":"","TextDomain":"gravatar-enhanced","DomainPath":"","Network":false,"RequiresWP":"6.6","RequiresPHP":"7.4","UpdateURI":"","RequiresPlugins":"","Title":"Gravatar Enhanced","AuthorName":"Automattic"},"gutenberg\/gutenberg.php":{"Name":"Gutenberg","PluginURI":"https:\/\/github.com\/WordPress\/gutenberg","Version":"23.4.0","Description":"Printing since 1440. This is the development plugin for the block editor, site editor, and other future WordPress core functionality.","Author":"Gutenberg Team","AuthorURI":"","TextDomain":"gutenberg","DomainPath":"","Network":false,"RequiresWP":"6.8","RequiresPHP":"7.4","UpdateURI":"","RequiresPlugins":"","Title":"Gutenberg","AuthorName":"Gutenberg Team"},"jetpack\/jetpack.php":{"Name":"Jetpack","PluginURI":"https:\/\/jetpack.com","Version":"16.1-a.1","Description":"Security, performance, and marketing tools made by WordPress experts. Jetpack keeps your site protected so you can focus on more important things.","Author":"Automattic","AuthorURI":"https:\/\/jetpack.com","TextDomain":"jetpack","DomainPath":"","Network":false,"RequiresWP":"6.9","RequiresPHP":"7.2","UpdateURI":"","RequiresPlugins":"","Title":"Jetpack","AuthorName":"Automattic"},"layout-grid\/index.php":{"Name":"Layout Grid","PluginURI":"","Version":"1.8.5","Description":"Let any blocks align to a global grid","Author":"Automattic","AuthorURI":"https:\/\/automattic.com","TextDomain":"layout-grid","DomainPath":"","Network":false,"RequiresWP":"","RequiresPHP":"","UpdateURI":"","RequiresPlugins":"","Title":"Layout Grid","AuthorName":"Automattic"},"local-development\/local-development.php":{"Name":"Local Development","PluginURI":"https:\/\/wordpress.org\/plugins\/local-development","Version":"2.11.0","Description":"Places development notice for plugins or themes that are in local development. Prevents updating of selected plugins and themes. Automatically adds plugins and themes under version control. Allows for using a local file server and bypassing the WordPress 5.2 WSOD Shutdown Handler.","Author":"Andy Fragen","AuthorURI":"http:\/\/thefragens.com\/","TextDomain":"local-development","DomainPath":"\/languages","Network":true,"RequiresWP":"5.4","RequiresPHP":"7.4","UpdateURI":"","RequiresPlugins":"","Title":"Local Development","AuthorName":"Andy Fragen"},"mademo-studio\/mademo-studio.php":{"Name":"Mademo Studio","PluginURI":"https:\/\/mademo.studio","Version":"2.1.0","Description":"Custom Post Types, taxonomies, ACF, REST API et administration pour Mademo Studio.","Author":"Mademo Studio","AuthorURI":"","TextDomain":"mademo-studio","DomainPath":"\/languages","Network":false,"RequiresWP":"","RequiresPHP":"8.1","UpdateURI":"","RequiresPlugins":"","Title":"Mademo Studio","AuthorName":"Mademo Studio"},"page-optimize\/page-optimize.php":{"Name":"Page Optimize","PluginURI":"https:\/\/wordpress.org\/plugins\/page-optimize\/","Version":"0.6.3","Description":"Optimizes JS and CSS for faster page load and render in the browser.","Author":"Automattic","AuthorURI":"http:\/\/automattic.com\/","TextDomain":"page-optimize","DomainPath":"","Network":false,"RequiresWP":"","RequiresPHP":"","UpdateURI":"","RequiresPlugins":"","Title":"Page Optimize","AuthorName":"Automattic"}}
+WordPress Active Plugins: ["advanced-custom-fields\/acf.php","akismet\/akismet.php","all-in-one-wp-migration\/all-in-one-wp-migration.php","crowdsignal-forms\/crowdsignal-forms.php","easy-local-site\/easy-local-site.php","fastdup\/fastdup.php","gravatar-enhanced\/gravatar-enhanced.php","gutenberg\/gutenberg.php","jetpack\/jetpack.php","local-development\/local-development.php","mademo-studio\/mademo-studio.php","page-optimize\/page-optimize.php","polldaddy\/polldaddy.php"]
+====  SYSTEM STATS  ====
+
+2026-07-16 03:01:27 [INFO] //========PACKAGE: START========//
+2026-07-16 03:01:27 [INFO] Create Package: ID: 1
+2026-07-16 03:01:27 [INFO] Package Data : {
+    "id": 1,
+    "name": "package",
+    "hash": "2n6Te7u3wf6a582d6757fc1",
+    "name_hash": "package_2n6Te7u3wf6a582d6757fc1",
+    "status": 10,
+    "scan_file": null,
+    "site_url": "http:\/\/mademo.studio\/",
+    "template_id": "only_db",
+    "filter_exts": null,
+    "filter_files": null,
+    "filter_dirs": null,
+    "filter_tables": null,
+    "store_path": "\/srv\/htdocs\/wp-content\/njt-fastdup\/packages",
+    "store_url": "https:\/\/mademo.studio\/wp-content\/njt-fastdup\/packages\/",
+    "store_path_temp": "\/srv\/htdocs\/wp-content\/njt-fastdup\/tmp",
+    "Archive": {
+        "is_filter": 0,
+        "export_onlydb": true,
+        "filter_exts": [],
+        "filter_dirs": [],
+        "filter_files": [],
+        "read_checks": [],
+        "recursive_links": [],
+        "addon_sites": [],
+        "file": "package_2n6Te7u3wf6a582d6757fc1_archive.zip",
+        "sql_path": null,
+        "zip_archive": null,
+        "zip_path": null,
+        "compress_dir": "\/wordpress\/core\/7.0.1",
+        "scan_path": null,
+        "unreadable_log": [],
+        "dir_exclude_log": [],
+        "recursive_links_log": [],
+        "exts_exclude_log": [],
+        "add_file_error_log": [],
+        "file_exclude_log": []
+    },
+    "Database": {
+        "is_filter": false,
+        "filter_tables": [],
+        "file": "package_2n6Te7u3wf6a582d6757fc1_database.sql",
+        "prefix": "wp_"
+    },
+    "created": "2026-07-16 01:01:27",
+    "njt_fastdup_archive_name": "wp-content\/njt-fastdup",
+    "njt_fastdup_dir_plugin": "wp-content\/plugins"
+}
+2026-07-16 03:01:27 [INFO] //========SCAN PACKAGE JSON: START========//
+2026-07-16 03:01:27 [INFO] //========SCAN PACKAGE JSON: DONE========//
+2026-07-16 03:01:27 [INFO] //========DATABASE: START========//
+2026-07-16 03:01:27 [INFO] //========DATABASE: DONE========//
+2026-07-16 03:01:27 [INFO] //========ARCHIVE: START========//
+2026-07-16 03:01:27 [INFO] File Path: /srv/htdocs/wp-content/njt-fastdup/tmp/package_2n6Te7u3wf6a582d6757fc1_database.sql
+2026-07-16 03:01:27 [INFO] ZIP database: successfully
+2026-07-16 03:01:27 [INFO] File Path: /srv/htdocs/wp-content/njt-fastdup/tmp/package_2n6Te7u3wf6a582d6757fc1_scan.json
+2026-07-16 03:01:27 [INFO] ZIP scan_json: successfully
+2026-07-16 03:01:27 [INFO] Zip Source Successfully
+2026-07-16 03:01:27 [INFO] //========ARCHIVE: DONE========//
+2026-07-16 03:01:27 [INFO] //========CLEAN UP: START========//
+2026-07-16 03:01:27 [INFO] Move File /srv/htdocs/wp-content/njt-fastdup/tmp/package_2n6Te7u3wf6a582d6757fc1_archive.zip To Packages Directory Successfully
+2026-07-16 03:01:27 [INFO] Move File /srv/htdocs/wp-content/njt-fastdup/tmp/package_2n6Te7u3wf6a582d6757fc1_scan.json To Packages Directory Successfully
+2026-07-16 03:01:27 [INFO] Delete File /srv/htdocs/wp-content/njt-fastdup/tmp/package_2n6Te7u3wf6a582d6757fc1_database.sql
+2026-07-16 03:01:27 [INFO] //========CLEAN UP: DONE========//
+2026-07-16 03:01:27 [INFO] //========PACKAGE: DONE========//
